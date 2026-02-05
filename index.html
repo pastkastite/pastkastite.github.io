@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PASTKASTITE.LV — e-pasts</title>
+  <meta name="description" content="Bezmaksas, privātumu cienošs e-pasta pakalpojums bez reklāmām. Nodrošina Biedrība 'Kiberizlūkošanas un aizsardzības centrs', reģ.Nr. 40008354042."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+      background:#f9fafb;
+      color:#1f2937;
+      line-height:1.6;
+    }
+    .container { max-width:980px; margin:0 auto; padding:0 20px; }
+
+    header {
+      background:#ffffff;
+      border-bottom:1px solid #e5e7eb;
+      padding:1.2rem 0;
+      position:sticky;
+      top:0;
+      z-index:10;
+    }
+    .header-inner {
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+    }
+    .logo {
+      font-size:1.5rem;
+      font-weight:600;
+      color:#111827;
+      text-decoration:none;
+    }
+    nav a {
+      margin-left:2rem;
+      color:#4b5563;
+      text-decoration:none;
+      font-weight:500;
+      transition:color 0.2s;
+    }
+    nav a:hover { color:#111827; }
+
+    .hero {
+      text-align:center;
+      padding:8rem 0 6rem;
+    }
+    .hero h1 {
+      font-size:2.8rem;
+      font-weight:600;
+      margin-bottom:1.2rem;
+      color:#111827;
+    }
+    .hero p.lead {
+      font-size:1.25rem;
+      color:#4b5563;
+      max-width:680px;
+      margin:0 auto 2.5rem;
+    }
+    .btn {
+      display:inline-block;
+      background:#111827;
+      color:white;
+      padding:0.9rem 2rem;
+      border-radius:6px;
+      text-decoration:none;
+      font-weight:500;
+      font-size:1.05rem;
+      transition:background 0.2s;
+    }
+    .btn:hover { background:#1f2937; }
+    .btn-outline {
+      background:transparent;
+      border:1px solid #d1d5db;
+      color:#374151;
+    }
+    .btn-outline:hover { background:#f3f4f6; }
+
+    section { padding:5rem 0; }
+    h2 { font-size:2.2rem; margin-bottom:2rem; text-align:center; color:#111827; }
+
+    .features {
+      display:grid;
+      grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));
+      gap:2rem;
+      margin:3rem 0;
+    }
+    .feature {
+      background:white;
+      padding:2rem;
+      border-radius:8px;
+      border:1px solid #e5e7eb;
+      box-shadow:0 1px 3px rgba(0,0,0,0.05);
+    }
+    .feature h3 { margin-bottom:0.8rem; font-size:1.25rem; }
+
+    .warning {
+      background:#fef2f2;
+      border:1px solid #fecaca;
+      border-radius:8px;
+      padding:1.8rem;
+      margin:3rem auto;
+      max-width:720px;
+      color:#7f1d1d;
+    }
+    .warning strong { color:#991b1b; }
+
+    footer {
+      background:#ffffff;
+      border-top:1px solid #e5e7eb;
+      padding:3rem 0;
+      color:#6b7280;
+      font-size:0.95rem;
+      text-align:center;
+    }
+    footer a { color:#4b5563; text-decoration:none; }
+    footer a:hover { color:#111827; text-decoration:underline; }
+
+    @media (max-width: 640px) {
+      .hero { padding:6rem 0 4rem; }
+      .hero h1 { font-size:2.2rem; }
+      nav a { margin-left:1.2rem; font-size:0.95rem; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="container header-inner">
+    <a href="/" class="logo">PASTKASTITE.LV</a>
+    <nav>
+      <a href="terms.html">Lietošanas noteikumi</a>
+      <a href="privacy.html">Privātuma politika</a>
+      <a href="https://mail.pastkastite.lv/mail">Autorizēties</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+
+  <section class="hero">
+	<h1>PASTKASTITE.LV</h1>
+    <h1>Bezmaksas un privāts e-pasts</h1>
+    <p class="lead">
+      Privātumu un drošību cienošs e-pasta pakalpojums, ko nodrošina sabiedriskā labuma biedrība.<br>
+      Nekādu reklāmu. Nekādu datu pārdošanas. Nekādu trešo pušu izsekošanas pikseļu.
+    </p>
+    <div>
+      <a href="https://mail.pastkastite.lv" class="btn" target="_blank" rel="noopener">Izveidot kontu</a>
+      <a href="privacy.html" class="btn btn-outline" style="margin-left:1rem;">Lasīt privātuma politiku</a>
+    </div>
+  </section>
+
+  <div class="warning">
+    <strong>Nulles tolerances politika:</strong> Mēs nepieļaujam un nekavējoties ziņojam tiesībsargājošām iestādēm jebkuru bērnu seksuālās izmantošanas materiālu, nekrofilijas, zoofilijas vai citu sevišķi smagu noziegumu satura izplatīšanu, glabāšanu vai tirdzniecību. Šādos gadījumos tiek nodota visa pieejamā informācija, ieskaitot, bet neaprobežojoties ar saturu, IP adresēm un metadatiem.
+  </div>
+
+</main>
+
+<footer>
+  <div class="container">
+    <p>Biedrība <strong>"Kiberizlūkošanas un aizsardzības centrs"</strong> · Reģ.Nr. 40008354042</p>
+    <p><a href="mailto:info@pastkastite.lv">info@pastkastite.lv</a> · <a href="mailto:abuse@pastkastite.lv">abuse@pastkastite.lv</a></p>
+    <p>© 2026 PASTKASTITE.LV — visi tiesības saglabāti</p>
+  </div>
+</footer>
+
+</body>
+</html>
